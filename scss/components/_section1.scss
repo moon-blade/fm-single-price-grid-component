@@ -1,0 +1,23 @@
+.join {
+  max-width: 20rem;
+  // max-height: 16.875rem;
+  background-color: #fff;
+  padding: 2rem 1.75rem 2.375rem 1.5rem;
+  h1 {
+    color: $cyan;
+    font-size: 1.25rem;
+    margin-bottom: 1.75rem;
+    font-weight: 700;
+  }
+  h2 {
+    color: $brightYellow;
+    font-size: 0.875rem;
+    margin-bottom: 1.625rem;
+    font-weight: 700;
+  }
+  p {
+    color: $grayishBlue;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+}

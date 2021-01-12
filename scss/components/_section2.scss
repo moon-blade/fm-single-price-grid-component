@@ -1,0 +1,54 @@
+.sub {
+  background-color: $cyan;
+  padding: 1.875rem 1.5rem 1.5rem 1.5rem;
+  max-width: 20rem;
+  // max-height: 14.5rem;
+  h2 {
+    color: $lightGray;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.375rem;
+  }
+  h3 {
+    display: flex;
+    align-items: center;
+    color: $lightGray;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    .price {
+      font-weight: 700;
+      font-size: 1.875rem;
+      margin-right: 1rem;
+    }
+  }
+  p {
+    color: $lightGray;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .button {
+    min-width: 16.5rem;
+    max-width: 16.5rem;
+    // min-height: 1.875rem;
+    // max-height: 1.875rem;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 0.875rem 6.5rem 0.875rem 6.5rem;
+
+    border: none;
+    border-radius: 5px;
+    background-color: $brightYellow;
+    color: $lightGray;
+    font-size: 0.875rem;
+    font-weight: 400;
+
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    &:hover {
+      background-color: hsl(71, 73%, 46%);
+    }
+  }
+}
