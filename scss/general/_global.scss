@@ -1,0 +1,15 @@
+body {
+  background-color: $grayishBlue;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4.5rem 2rem 4.75rem 2rem;
+}
+.content-wrapper {
+  border-radius: 5px;
+  overflow: hidden;
+}
